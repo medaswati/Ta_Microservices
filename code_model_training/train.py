@@ -15,7 +15,7 @@ import gzip
 
 
 # Load the dataset
-data = pd.read_csv('C:\\Users\\mohdm\\Downloads\\Microservices\\data\\breast_cancer.csv')
+data = pd.read_csv('/home/swathi/Ta_Microservices/data/breast_cancer.csv')
 
 # Preprocess dataset
 data = data.set_index('id')
